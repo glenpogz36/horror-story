@@ -1,11 +1,8 @@
 
 var healthCounter = 3;
 
-function itsComing() {
-  var itsComing = document.getElementById("introMusic");
-  itsComing.play();
-  
-}
+
+
 /*
 function stopItsComing() {
   var stopItsComing = document.getElementById("introMusic");
@@ -17,7 +14,8 @@ $(document).ready(function () {
   $("#room0").slideDown();
   $("#room0toRoom1").click(function() {
     $(".room").hide();
-    $("#room1").slideDown();
+        $(".room1").hide();
+    $("#room1").hide();
     $("#healthDisplay").text(healthCounter);
   });
 
@@ -30,9 +28,10 @@ $(document).ready(function () {
     $(".room").hide();
     $("#room0").slideDown();
   });
-  
+
   $("#room1toRoom2").click(function() {
     $(".room").hide();
+        $(".room1").hide();
     $("#room2").slideDown();
   });
 
@@ -60,5 +59,3 @@ $(document).ready(function () {
 
 
 });
-
-

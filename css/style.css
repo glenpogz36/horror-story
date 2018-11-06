@@ -1,7 +1,9 @@
 .room {
   display: none;
 }
-
+.room 1{
+  display: none;
+}
 body {
   margin-top: 10%;
   background-color: black;
@@ -53,7 +55,5 @@ sub {
 }
 
 #healthDisplay {
-  
+
 }
-
-
